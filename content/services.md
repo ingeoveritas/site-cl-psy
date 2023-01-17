@@ -1,5 +1,5 @@
 ---
-title: "Services"
+title: "Modes de thérapies"
 ---
 
 This is a page about the services, which I offer.
