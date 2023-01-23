@@ -1,10 +1,8 @@
 ---
 title: "Parcours"
-weight: 3
+weight: 4
 header_menu: true
 ---
-
-![Jane Doe](images/happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg)
 
 ##### Formations
 
@@ -16,4 +14,4 @@ header_menu: true
 - Intégration des Cycles de Vie – Niveau 2 -  Institut Double-Hélice (2020)
 - Hypnose et Thérapies d’Activation de la Conscience – DIU Paris Sud (2021)
 
-{{% button href="http://www.linkedin.com/in/camille-lambert-psychologue" %}}{{<icon class="fa fa-linkedin">}} Voir le profil sur LinkedIn{{% /button %}}
+{{% button href="http://www.linkedin.com/in/camille-lambert-psychologue" %}} {{<icon class="fa fa-linkedin">}} Voir le profil sur LinkedIn{{% /button %}}

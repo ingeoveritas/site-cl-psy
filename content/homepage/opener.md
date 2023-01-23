@@ -12,5 +12,7 @@ Mon approche est intégrative. Je mettrai ainsi avant tout à votre disposition 
 - Thérapie des Schémas
 - Thérapies d’Intégration des Cycles de Vie (ICV).
 
-Exerçant depuis une dizaine d’années principalement au sein de services de santé (cancérologie, maladies infectieuses, médecine interne, psychiatrie, médecine du travail…), j’accompagne dans mon activité libérale des adultes pour des motifs de consultations variés. 
-Le premier entretien permet de se rencontrer, de préciser les raisons qui vous mènent à consulter et d’envisager les possibilités et modalités d’une thérapie. 
+Exerçant depuis une dizaine d’années principalement au sein de services de santé (cancérologie, maladies infectieuses, médecine interne, psychiatrie, médecine du travail…), j’accompagne dans mon activité libérale des adultes pour des motifs de consultations variés.
+Le premier entretien permet de se rencontrer, de préciser les raisons qui vous mènent à consulter et d’envisager les possibilités et modalités d’une thérapie.
+
+![Portrait](images/photos/portrait_monochrome_sourire_300x342.webp)

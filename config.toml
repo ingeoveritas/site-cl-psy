@@ -26,7 +26,7 @@ title = "Camille Lambert - Psychologue clinicienne à Marseille"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/cover-image.jpg"]
+    images = ["images/photos/portes-peinture.jpg"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
@@ -39,3 +39,10 @@ title = "Camille Lambert - Psychologue clinicienne à Marseille"
 
     [params.meta]
         keywords = "psychologue, Marseille, vieux-port, TCC, hypnose, TAC, ICV, intégration des cycles de vie"
+
+[Params.social.share]
+  facebook = true
+  linkedin = true
+  twitter = true
+  whatsapp = true
+  email = true
