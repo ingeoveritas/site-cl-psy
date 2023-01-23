@@ -1,10 +1,16 @@
 ---
-title: "Bienvenue"
+title: "Qui suis-je ?"
 weight: 1
 ---
 
-Hi there. This section will not show up in the header menu above. Other than that, there's really not much to see here. I did however append some generated »Lorem ipsum«-paragraphs for you. Enjoy!
+Psychologue clinicienne et psychothérapeute, j’ai à cœur de proposer un espace chaleureux, sécure et bienveillant pour vous accueillir lors de quelques consultations de soutien ou pour une psychothérapie à plus long cours.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula turpis nec arcu cursus, ac faucibus felis tempor. Donec molestie arcu eu pretium accumsan. Phasellus urna nisi, volutpat pharetra orci vel, feugiat sollicitudin diam. Phasellus dolor tortor, feugiat a ipsum id, gravida volutpat urna. Nam dictum nulla ac nisi aliquam ultricies. Nam tempus eget lorem vitae vulputate.
+Mon approche est intégrative. Je mettrai ainsi avant tout à votre disposition un espace d’écoute, centré sur votre parole et votre vécu, dans un échange auquel je participerai activement. Si cela s’avère pertinent, je pourrai vous proposer des outils psychothérapeutiques issus de différentes approches :
 
-Nulla aliquet, nisl pulvinar fermentum ultricies, turpis purus ultricies lorem, ut faucibus arcu nisl in tellus. Integer eu augue auctor, fringilla nunc ut, finibus eros. Curabitur est lectus, ultricies id blandit at, malesuada et ipsum. Suspendisse potenti. Quisque euismod sapien arcu, vel sollicitudin ipsum dignissim nec.
+- Hypnose et Thérapies d’Activation de la Conscience (TAC)
+- Thérapies Cognitives et Comportementales (TCC)
+- Thérapie des Schémas
+- Thérapies d’Intégration des Cycles de Vie (ICV).
+
+Exerçant depuis une dizaine d’années principalement au sein de services de santé (cancérologie, maladies infectieuses, médecine interne, psychiatrie, médecine du travail…), j’accompagne dans mon activité libérale des adultes pour des motifs de consultations variés. 
+Le premier entretien permet de se rencontrer, de préciser les raisons qui vous mènent à consulter et d’envisager les possibilités et modalités d’une thérapie. 
