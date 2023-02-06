@@ -1,0 +1,30 @@
+{{- $src := "" }}
+{{- $height := "450" }}
+{{- $width := "100%" }}
+{{- $manual := false }}
+{{- $lazyLoading := true }}
+{{- $loadButtonText := "load" }}
+{{- $fullscreen := true }}
+{{- $loadInfo := "" }}
+{{- if .IsNamedParams }}
+  {{- $src = .Get "src" }}
+  {{- with .Get "trigger" }}{{ $manual = eq "manual" . }}{{ end }}
+  {{- with .Get "fullscreen" }}{{ $fullscreen = . }}{{ end }}
+  {{- with .Get "loadInfo" }}{{ $loadInfo = . }}{{ end }}
+  {{- with .Get "lazyLoading" }}{{ $lazyLoading = . }}{{ end }}
+  {{- with .Get "loadButtonText" }}{{ $loadButtonText = . }}{{ end }}
+{{- else }}
+  {{- $src = .Get 0 }}
+{{- end }}
+<div class="iframe-wrapper ratio ratio-16x9 my-2">
+    <iframe class="iframe bg-dark"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        scrolling="no"
+        style="border:0;"
+        width="{{ $width }}"
+        height="{{ $height }}"
+        {{ if $lazyLoading }}loading="lazy"{{ end }}
+        {{ if $manual }}data-src="{{ $src }}" src="about:blank"{{ else }}src="{{ $src }}"{{ end }}>
+    </iframe>
+</div>
