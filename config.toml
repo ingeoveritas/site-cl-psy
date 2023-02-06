@@ -1,7 +1,7 @@
 baseURL = "https://camillelambertpsychologue.fr"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+disableKinds = ["section", "taxonomy", "term", "RSS"]
 
 defaultContentLanguage = "fr"
 
@@ -39,10 +39,3 @@ title = "Camille Lambert - Psychologue clinicienne à Marseille"
 
     [params.meta]
         keywords = "psychologue, Marseille, vieux-port, TCC, hypnose, TAC, ICV, intégration des cycles de vie"
-
-[Params.social.share]
-  facebook = true
-  linkedin = true
-  twitter = true
-  whatsapp = true
-  email = true
