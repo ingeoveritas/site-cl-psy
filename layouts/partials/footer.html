@@ -1,0 +1,23 @@
+<footer class="site-footer">
+    <div class="inner">
+        <p>Le Psychologue est soumis à un code de déontologie.L’exercice de la profession est protégé par loi N°85. 772
+            du 25 juillet 1985. L’usage professionnel du titre de Psychologue est réservé exclusivement aux titulaires
+            d’un diplôme sanctionnant une formation universitaire fondamentale et appliquée de haut niveau.</p>
+        <p>Le numéro ADELI montre que le praticien est un psychologue clinicien autorisé, il certifie l'identité
+            professionnelle du psychologue. Numéro délivré par La Direction Départementale des Affaires Sanitaires et
+            Sociales (DDASS).</p>
+        <p>----</p>
+        {{ with .Site.Params.copyright }}
+        <section class="copyright">{{ . | markdownify }}</section>{{ end }}
+
+
+        <section>{{ echoParam .Site.Params "hidebyline" }}</section>
+        {{ if ne .Site.Params.hidedesignbyline true }}
+        <section>
+            <a href="https://themes.gohugo.io/hugo-scroll/">Design</a> template
+            built with ♥️ by
+            <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
+        </section>{{ end }}
+
+    </div>
+</footer>
