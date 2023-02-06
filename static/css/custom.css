@@ -1,3 +1,13 @@
+/* Header Buttons on Startpage */
+a.btn {
+    color: #0E7AA1;
+    background-color: #67cdd0;
+}
+
+a.btn:hover {
+    background-color: #c8f2ff;
+}
+
 /* Content / Sections */
 .post-holder.odd {
     background: #207b9c;
@@ -6,8 +16,8 @@
 
 .post-holder {
     background: #f2efe8;
-    }
+}
 
-    body {
-        color: #3A4145;
-    }
+body {
+    color: #3A4145;
+}
