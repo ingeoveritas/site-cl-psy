@@ -2,5 +2,6 @@
     "git.enableCommitSigning": true,
     "yaml.schemas": {
         "https://json.schemastore.org/github-workflow.json": "file:///home/jmo/Git/Perso/site-cl-psy/.github/workflows/deploy.yml"
-    }
+    },
+    "svg.preview.background": "white"
 }

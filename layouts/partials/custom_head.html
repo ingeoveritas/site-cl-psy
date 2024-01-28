@@ -4,48 +4,23 @@
 <!-- Custom CSS via inline styles
      You may use this template to add custom CSS to your site like so: -->
 
-<!-- <style>
-     /* Links */
-     a:hover {
-         color: #b6b84c;
-     }
+<style>
+:root {
+    /* see variables.scss for more variables*/
 
-     /* Header Buttons on Startpage */
-     a.btn {
-         color: white;
-          background-color: #ced067;
-     }
-     a.btn:hover {
-          background-color: #b6b84c;
-     }
+    --section-light-text-color: #3a4145!important;
+    --section-light-bg-color: #ffdb8c!important;
+    --section-dark-bg-color: #207b9c!important;
 
-     /* Scroll Menu on Startpage */
-     a.fn-item.active {
-          color: #b6b84c;
-     }
-     a.fn-item:hover {
-          color: #ced067;
-     }
+     /* define list element for unnumbered lists, leave empty for default list element */
+     /* fa-asterisk is the default icon if this variable definition is missing completely */
+     --ul-li-icon: fa-dashcube;     /* this sets fa-dashcube as list icon */
+     --ul-li-icon: ;                /* this sets the default html list icon */
 
-     /* Content / Sections */
-     .post-holder.odd {
-          background: #B80135;
-          color: white;
-     }
-     .post-holder {
-          background: #f2efe8;
-     }
-     body {
-          color: #3A4145;
-     }
-
-     /* Footer */
-     .site-footer {
-          color: #BBC7CC;
-          background-color: #22343A;
-     }
-</style> -->
-
+     --sticky-menu-text-color: #0E7AA1;
+}
+</style>
+ 
 <!-- Custom CSS via "custom.css"-file
      If you would rather place your custom CSS into
      a separate file, create a "custom.css" in your
