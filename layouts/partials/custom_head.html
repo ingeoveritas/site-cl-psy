@@ -6,9 +6,20 @@
 
 <style>
 :root {
-    /* see variables.scss for more variables*/
+    /* see variables.scss for more variables
+     https://github.com/zjedi/hugo-scroll/blob/master/assets/css/variables.scss*/
 
-    --section-light-text-color: #3a4145!important;
+     /* === Cover / Landing area === */
+     --cover-text-color: #303030;
+    /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+    --highlight: #207b9ccc;
+    --highlight-contrast: var(--cover-text-color);
+    /*iverse colors used for :hover */
+    --highlight-inverse: var(--cover-text-color);
+    --highlight-inverse-contrast: white;
+
+
+    --section-light-text-color: #303030!important;
     --section-dark-bg-color: #207b9c!important;
 
      /* define list element for unnumbered lists, leave empty for default list element */
@@ -18,7 +29,6 @@
 
      --sticky-menu-text-color: #0E7AA1;
 
-     --cover-text-color: #303030;
      --cover-title-and-description-guard-bg-color: rgba(192, 56, 56, 0.6);
 }
 </style>
