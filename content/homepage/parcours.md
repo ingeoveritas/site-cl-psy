@@ -21,4 +21,4 @@ header_menu: true
 - Hypnose et Thérapies d’Activation de la Conscience (TAC)  
 (DIU, Université Paris Sud)
 
-{{% button href="http://www.linkedin.com/in/camille-lambert-psychologue" %}} {{<icon class="fa fa-linkedin">}} Voir le profil sur LinkedIn{{% /button %}}
+Voir le profil sur {{<extlink icon="fa fa-linkedin" text="LinkedIn" href="https://www.linkedin.com/in/camille-lambert-psychologue">}}
