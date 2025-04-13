@@ -1,23 +1,52 @@
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections := cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+
 <footer class="site-footer">
-    <div class="inner">
-        <p>Le Psychologue est soumis à un code de déontologie.L’exercice de la profession est protégé par loi N°85. 772
-            du 25 juillet 1985. L’usage professionnel du titre de Psychologue est réservé exclusivement aux titulaires
-            d’un diplôme sanctionnant une formation universitaire fondamentale et appliquée de haut niveau.</p>
-        <p>Le numéro ADELI montre que le praticien est un psychologue clinicien autorisé, il certifie l'identité
-            professionnelle du psychologue. Numéro délivré par La Direction Départementale des Affaires Sanitaires et
-            Sociales (DDASS).</p>
-        <p>----</p>
-        {{ with .Site.Params.copyright }}
-        <section class="copyright">{{ . | markdownify }}</section>{{ end }}
+  <div class="inner">
+    <p>Le Psychologue est soumis à un code de déontologie.L’exercice de la profession est protégé par loi N°85. 772
+        du 25 juillet 1985. L’usage professionnel du titre de Psychologue est réservé exclusivement aux titulaires
+        d’un diplôme sanctionnant une formation universitaire fondamentale et appliquée de haut niveau.<br/>
+    Le numéro RPPS/ADELI montre que le praticien est un psychologue clinicien autorisé, il certifie l'identité
+        professionnelle du psychologue. Numéro délivré par La Direction Départementale des Affaires Sanitaires et
+        Sociales (DDASS).</p>
+    {{ if ne .Site.Params.footer.showFooterLinks false }}
+    <section class="links">
+      <ol>
+      {{ range where $sections ".Params.footer_menu" "eq" true }}
+        <li>
+          <a href="{{ relLangURL .Params.detailed_page_path }}">{{ .Params.footer_menu_title }}</a>
+        </li>
+      {{ end }}
+      </ol>
+    </section>
+    <hr />
+    {{ end }}
 
+    {{ if ne .Site.Params.footer.showContactIcons false }}
+      <section class="icons">
+        {{ range .Site.Params.contacts }}
+          <a href="{{ .url | safeURL }}" aria-label='{{ i18n "{{ .label }}" }}'><i class="{{ .icon }}"></i></a>
+        {{ end }}
+      </section>
+    {{ end }}
 
-        <section>{{ echoParam .Site.Params "hidebyline" }}</section>
-        {{ if ne .Site.Params.hidedesignbyline true }}
-        <section>
-            <a href="https://themes.gohugo.io/hugo-scroll/">Design</a> template
-            built with ♥️ by
-            <a href="https://www.janraasch.com" title="Jan Raasch">Jan Raasch</a>
-        </section>{{ end }}
+    {{ with .Site.Params.copyright }}
+      <section class="copyright">{{ . | safeHTML }}</section>
+    {{ end }}
 
-    </div>
+    {{ if ne .Site.Params.hidedesignbyline true }}
+      <section>
+        <a href="https://themes.gohugo.io/hugo-scroll/" target="_blank" rel="noopener">Hugo Scroll</a> template
+      </section>
+    {{ end }}
+
+    {{ if ne .Params.enableGitInfo false }}
+      {{- if $.GitInfo -}}
+      <section>
+       version: {{ .Lastmod.Format "2006-01-02" }} | #{{ .GitInfo.AbbreviatedHash }}
+      </section>
+      {{- end -}}
+    {{ end }}
+  </div>
 </footer>

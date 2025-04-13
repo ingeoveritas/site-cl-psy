@@ -11,12 +11,20 @@ theme = "hugo-scroll"
 # The "title" of your website
 title = "Camille Lambert - Psychologue clinicienne à Marseille"
 
+# In order to add version information in the page's footer set to true.
 enableGitInfo = true
 
+# enable emoji processing in Markdown (valid only for pure markdown content)
+enableEmoji = true
+
 [params]
+    # Use "page_title | site_title" for <title> tags
+    # e.g. <title>Legal | Jane Doe - Nutrition Coach & Chef Consultant</title>
+    combine_page_and_site_title = false
+
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Camille Lambert et In Geo Veritas"
+    copyright = "© Camille Lambert"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "Psychologue clinicienne (EPP) sur Marseille (France), formée à la thérapie des schémas, l'intégration des cycles de vie (ICV), thérapie cognitive comportementale (TCC), hypnose et thérapie d’activation de la conscience (TAC)"
@@ -43,16 +51,48 @@ enableGitInfo = true
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
-    # hidedesignbyline = true
+    hidedesignbyline = false
 
-    [params.meta]
-        keywords = "psychologue, Marseille, vieux-port, TCC, hypnose, TAC, ICV, intégration des cycles de vie"
-
-    [params.contact]
-        email = "camille.lambert.psychologue@gmail.com"
-        phone = "+33 7 45 05 44 34"
-
+    # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
+    invertSectionColors = false
 
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
     showContactIcons = true
+
+    # Show links indicated with footer_menu and footer_menu_title in the footer of the page
+    showFooterLinks = false
+
+    [[params.contacts]]
+        label = "email"
+        value = "camille.lambert.psychologue@gmail.com"
+        url = "mailto:camille.lambert.psychologue@gmail.com"
+        icon = "fa fa-envelope"
+
+    [[params.contacts]]
+        label = "phone"
+        value = "+33 7 45 05 44 34"
+        url = "tel:+33 7 45 05 44 34"
+        icon = "fa fa-phone"
+
+    [[params.contacts]]
+        label = "address"
+        value = "108 Cours Julien, 13006 Marseille"
+        url = "https://g.co/kgs/RctECuX"
+        icon = "fa fa-map-marker"
+
+    [[params.contacts]]
+        label = "rpps"
+        value = "Numéro RPPS : 10008482589 | ADELI : 139340244"
+        url = "https://annuaire.sante.fr/web/site-pro/information-detaillees?p_p_id=resultatsportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&_resultatsportlet_idNat=810008482589&_resultatsportlet_coordonneIdPourDetail=0&_resultatsportlet_idExePro=5866787&_resultatsportlet_idRpps=10008482589&_resultatsportlet_type=printPdfPP&_resultatsportlet_siteIdPourDetail=1543129&_resultatsportlet_etat=OUVERT"
+        icon = "fa fa-id-card"
+
+    [params.meta]
+        keywords = "psychologue, Marseille, psy, cours Julien, TCC, hypnose, TAC, ICV, intégration des cycles de vie"
+
+# Define additional languages
+[languages]
+  [languages.fr]
+    weight = 10
+    languageName = "French"
+    contentDir = "content/fr"
