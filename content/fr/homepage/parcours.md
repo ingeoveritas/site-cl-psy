@@ -20,5 +20,3 @@ header_menu: true
 (certification niveau 2, Institut Double-Hélice)
 - Hypnose et Thérapies d’Activation de la Conscience (TAC)  
 (DIU, Université Paris Sud)
-
-Voir [le profil sur LinkedIn {{< icon name="linkedin" brand=true >}}](https://www.linkedin.com/in/camille-lambert-psychologue").
