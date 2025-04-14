@@ -16,4 +16,4 @@ Exerçant depuis une quinzaine d’années principalement au sein de services de
 
 Le premier entretien permet de se rencontrer, de préciser les raisons qui vous mènent à consulter et d’envisager les possibilités et modalités d’une thérapie.
 
-![Portrait Camille Lambert (psychologue)](images/photos/portrait_monochrome_sourire_300x342.webp)
+![Portrait Camille Lambert (psychologue)](images/photos/portrait_monochrome_sourire_300x.webp)
